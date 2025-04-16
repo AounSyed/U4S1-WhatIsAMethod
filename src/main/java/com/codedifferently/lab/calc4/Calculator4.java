@@ -6,9 +6,10 @@ public class Calculator4 {
 
     //Include the cost of Alex's and Forgetful's meals in your calculations
     //Return the total after calculating
-    public void findTotal(double price, String name){
-        double total = price*(1+tax+tip);
-        System.out.println(name +": $" +total);
+    public double findTotal(double price, String name, int totalPeople){
+        double total = (Math.round(price * (1+tax+tip)) * Math.pow(10, 2) / Math.pow(10, 2) / totalPeople);
+        double tableTotal = total * totalPeople;
+        return tableTotal;
 
     }
 }

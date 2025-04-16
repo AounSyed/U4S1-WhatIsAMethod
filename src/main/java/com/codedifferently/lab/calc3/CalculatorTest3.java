@@ -7,7 +7,14 @@ public class CalculatorTest3 {
 
         //Use the Calculator object and arguments supplied to findTotal()
         //to print the total for each person
-
+        calc.findTotal(10, "Person 1");
+        calc.findTotal(12, "Person 2");
+        calc.findTotal(9, "Person 3");
+        calc.findTotal(8, "Person 4");
+        calc.findTotal(7, "Person 5");
+        calc.findTotal(15, "Person 6");
+        calc.findTotal(11, "Person 7");
+        calc.findTotal(30, "Person 8");
 
 
        /*This is what everyone owes before tax and tip:

@@ -8,5 +8,7 @@ public class Calculator2 {
     public void findTotal(){
         //Calculate an individual's total after tax and tip
         //Print this value
+        double total = (originalPrice + (originalPrice * tax) + tip);
+        System.out.println(total);
     }
 }
